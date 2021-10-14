@@ -14,23 +14,35 @@ namespace calculadoraPOO
         public double n2 { get; set; }
         public double res { get; set; }
 
+        //Método construtor
+        public Calculadora()
+        {
+            this.n1 = 0;
+            this.n2 = 0;
+            this.res = 0;
+        }
+
+        public Calculadora(double n1,double n2)
+        {
+            this.n1 = n1;
+            this.n2 = n2;
+            this.res = 0;
+        }
+
         //Métodos
         public void somar()
         {
             this.res = this.n1 + this.n2;
-            
         }
 
         public void subtrair()
         {
             this.res = this.n1 - this.n2;
-           
         }
 
         public void multiplicar()
         {
             this.res = this.n1 * this.n2;
-            
         }
 
         public void dividir()
@@ -43,10 +55,7 @@ namespace calculadoraPOO
             else
             {
                 this.res = this.n1 / this.n2;
-   
             }
         }
-
-
     }
 }

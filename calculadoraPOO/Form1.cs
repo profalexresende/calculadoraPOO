@@ -17,27 +17,22 @@ namespace calculadoraPOO
             InitializeComponent();
         }
 
-        //Instância da classe Calculadora
-        Calculadora calc = new Calculadora();
-
         private void btnSomar_Click(object sender, EventArgs e)
         {
-            //Passar os valores das textbox para os atributos do objeto calc
-            calc.n1 = Convert.ToDouble(txtN1.Text);
-            calc.n2 = Convert.ToDouble(txtN2.Text);
+            //Instância da classe Calculadora
+            Calculadora calc = new Calculadora(Convert.ToDouble(txtN1.Text),
+                Convert.ToDouble(txtN2.Text));
 
-            //Chamar o método
+           //Chamar o método
             calc.somar();
 
             //Exibir o resultado
             lblRes.Text = calc.res.ToString();
-
-            
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
-           
+            Calculadora calc = new Calculadora();
             //Passar os valores das textbox para os atributos do objeto calc
             calc.n1 = Convert.ToDouble(txtN1.Text);
             calc.n2 = Convert.ToDouble(txtN2.Text);
@@ -46,38 +41,37 @@ namespace calculadoraPOO
             calc.subtrair();
             //Exibir o resultado
             lblRes.Text = calc.res.ToString();
-
-
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-           
+            Calculadora calc = new Calculadora();
+            double a, b;
+            a = Convert.ToDouble(txtN1.Text);
+            b = Convert.ToDouble(txtN2.Text);
+
             //Passar os valores das textbox para os atributos do objeto calc
-            calc.n1 = Convert.ToDouble(txtN1.Text);
-            calc.n2 = Convert.ToDouble(txtN2.Text);
+            calc.n1 = a;
+            calc.n2 = b;
 
             //Chamar o método
             calc.multiplicar();
             //Exibir o resultado
             lblRes.Text = calc.res.ToString();
-
-
         }
 
         private void btnDividir_Click(object sender, EventArgs e)
         {
-           
-            //Passar os valores das textbox para os atributos do objeto calc
-            calc.n1 = Convert.ToDouble(txtN1.Text);
-            calc.n2 = Convert.ToDouble(txtN2.Text);
+            double a, b;
+            a = Convert.ToDouble(txtN1.Text);
+            b = Convert.ToDouble(txtN2.Text);
+
+            Calculadora calc = new Calculadora(a,b);
 
             //Chamar o método
             calc.dividir();
             //Exibir o resultado
             lblRes.Text = calc.res.ToString();
-
-
         }
     }
 }
