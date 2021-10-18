@@ -8,3 +8,13 @@ C:\TreinamentoC\calculadoraPOO\calculadoraPOO\obj\Debug\calculadoraPOO.csproj.Ge
 C:\TreinamentoC\calculadoraPOO\calculadoraPOO\obj\Debug\calculadoraPOO.csproj.CoreCompileInputs.cache
 C:\TreinamentoC\calculadoraPOO\calculadoraPOO\obj\Debug\calculadoraPOO.exe
 C:\TreinamentoC\calculadoraPOO\calculadoraPOO\obj\Debug\calculadoraPOO.pdb
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\bin\Debug\calculadoraPOO.exe.config
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\bin\Debug\calculadoraPOO.exe
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\bin\Debug\calculadoraPOO.pdb
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\obj\Debug\calculadoraPOO.csproj.AssemblyReference.cache
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\obj\Debug\calculadoraPOO.Form1.resources
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\obj\Debug\calculadoraPOO.Properties.Resources.resources
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\obj\Debug\calculadoraPOO.csproj.GenerateResource.cache
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\obj\Debug\calculadoraPOO.csproj.CoreCompileInputs.cache
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\obj\Debug\calculadoraPOO.exe
+C:\TreinamentoC\calculadoraPOO_Metodos\calculadoraPOO\obj\Debug\calculadoraPOO.pdb

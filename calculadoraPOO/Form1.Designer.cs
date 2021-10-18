@@ -34,10 +34,10 @@ namespace calculadoraPOO
             this.txtN2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnSomar = new System.Windows.Forms.Button();
-            this.btnDividir = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.btnSubtrair = new System.Windows.Forms.Button();
             this.lblRes = new System.Windows.Forms.Label();
+            this.btnDividir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -82,16 +82,6 @@ namespace calculadoraPOO
             this.btnSomar.UseVisualStyleBackColor = true;
             this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
             // 
-            // btnDividir
-            // 
-            this.btnDividir.Location = new System.Drawing.Point(35, 167);
-            this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(128, 23);
-            this.btnDividir.TabIndex = 5;
-            this.btnDividir.Text = "Dividir";
-            this.btnDividir.UseVisualStyleBackColor = true;
-            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
-            // 
             // btnMultiplicar
             // 
             this.btnMultiplicar.Location = new System.Drawing.Point(35, 138);
@@ -121,6 +111,16 @@ namespace calculadoraPOO
             this.lblRes.TabIndex = 8;
             this.lblRes.Text = "Resposta";
             // 
+            // btnDividir
+            // 
+            this.btnDividir.Location = new System.Drawing.Point(35, 167);
+            this.btnDividir.Name = "btnDividir";
+            this.btnDividir.Size = new System.Drawing.Size(128, 23);
+            this.btnDividir.TabIndex = 5;
+            this.btnDividir.Text = "Dividir";
+            this.btnDividir.UseVisualStyleBackColor = true;
+            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,10 +149,10 @@ namespace calculadoraPOO
         private System.Windows.Forms.TextBox txtN2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSomar;
-        private System.Windows.Forms.Button btnDividir;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Button btnSubtrair;
         private System.Windows.Forms.Label lblRes;
+        private System.Windows.Forms.Button btnDividir;
     }
 }
 

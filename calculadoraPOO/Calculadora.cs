@@ -22,7 +22,7 @@ namespace calculadoraPOO
             this.res = 0;
         }
 
-        public Calculadora(double n1,double n2)
+        public Calculadora(double n1, double n2)
         {
             this.n1 = n1;
             this.n2 = n2;
@@ -35,27 +35,28 @@ namespace calculadoraPOO
             this.res = this.n1 + this.n2;
         }
 
-        public void subtrair()
+        public void subtrair(double a, double b)
         {
-            this.res = this.n1 - this.n2;
+            this.res = a - b;
         }
 
-        public void multiplicar()
+        public double multiplicar()
         {
-            this.res = this.n1 * this.n2;
+            return this.n1 * this.n2;
         }
 
-        public void dividir()
+        public double dividir(double a, double b)
         {
-            if (this.n2 == 0)
+            double resposta = 0;
+            if (b == 0)
             {
                 MessageBox.Show("Não é possível dividir por 0!");
-                this.res = 0;
             }
             else
             {
-                this.res = this.n1 / this.n2;
+                resposta = a / b;
             }
+            return resposta;
         }
     }
 }
